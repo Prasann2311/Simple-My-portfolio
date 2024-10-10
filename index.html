@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website -Prasann</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b09dc14acd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-sharp fa-regular fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Computer Diploma Engineer</p>
+                <h1>Hello, I'm<span> Prasann</span> <br> From Pune</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------about-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello, my self Prasann Balasaheb Bhatlawande Right Now i'm studied in computer diploma engineering from SMSMPITR College of AKLUJ. In this website presenting over all details about me.... This is my first my portfolio website(About my personal details). i just try to do something from this website.....! </p>
+                    
+                    <div class="tab-title">
+                        <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Editing</span><br>Designing  all Types of Editing </li>
+                            <li><span>Basic App Development</span><br>Designing Basic Application interface</li>
+                            <li><span>website Development</span><br>Designing basic Website interface</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"id="experience">
+                        <ul>
+                            <li><span>Fresher </span><br>Right now just completed my diploma engineering in SMSMPITR AKLUJ</li>
+                            <li><span>Industrial Training</span><br>Completed my industrial training in PROAZURE SOFTWARE SOLUTION Pvt.LTD, Pune</li>
+                          
+                        </ul>
+                    </div>
+                    <div class="tab-contents"id="education">
+                        <ul>
+                            <li><span>2022-2023</span><br>complete Computer diploma engineering with first class distinction (85%)</li>
+                            <li><span>2019-2022</span><br>10th in Pune from SGV high School with 85%</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------services---------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <h2>Editing</h2>
+                <p>All type of editing services are provide to customer such as flex design, social design, video design, own level templete....!</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Basic App Development</h2>
+                <p>All type of basic Application design services are provide to everyone as per his/her requirement of appliacation....!</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>website design</h2>
+                <p>as per customer requirement we are provide to his/her website design in basic cost and high level design.....</p>
+                <a href="#">Learn More</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-----------Portfolio---------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Editing App</h3>
+                    <p>Here are the some editing apps are providing the editing platform to customer as hos/her requirement of editing....! and somo demo editing App</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>My Basic Apps</h3>
+                    <p>This is my basic apps are created as per customer requirement and Now we are create only basic apps.....!</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Website design</h3>
+                    <p>We are create website design (basic design of website) and i'm just started to created a website design</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#"class="btn">See More</a>
+    </div>
+</div>
+<!--------------Contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>prasannbhatlawande23@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9698929393</p>
+                <div class="social-icons">
+                    <a href="http://www.facebook.com/prasann.bhatlawande.1"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="http://twitter.com/PrasannBhatlaw1?=kd766ivjDk9T72JYWVM5jQ&s=08"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="http://www.instagram.com/official_prasann_2311?r=nametag"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://www.linkedin.com/in/prasann-bhatlawande-680157218"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/PRASANN CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <div class="form">  
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"> </span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Made By <i class="fa-solid fa-heart"></i> Prasann</p>
+        </div>
+    </div>
+</div>
+
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script> 
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyIf2UDB_T2dxxHBIDQvxHXcr0xHvi6Y03f0udKZFbhRoDtAS-TmXHI1X_60yDrQ4G3/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Send Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html> 
